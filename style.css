@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ddd;
+
+}
+
+h2{
+    font-family: Montserrat;
+    
+    /* font-size: 0.5rem; */
+    /* font-weight: 900; */
+    line-height: 1.5;
+   
+}
+.stream{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    font-family:'Montserrat Black';
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+   
+}
+p{
+    color:#8f8f8f;
+    font-size: 1.2rem;
+     
+}
+.hover:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+   
+       
+    
+}
+
+.hov:hover{
+    transform: scale(1.3);
+
+}
+.insta:hover{
+    color:red;
+}
+
+.bca h5{
+    /* font-family: 'Arvo', serif; */
+    font-family: 'Barlow', sans-serif;
+    /* font-family: 'Work Sans', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family:'Baloo Bhai 2', cursive; */
+    /* font-family: 'Montserrat', sans-serif; */
+    color:lightslategray;
+
+}
+.link:hover{
+    color:red;
+
+}
+.bsc h5
+
+{
+    /* font-family: 'Arvo', serif; */
+    font-family: 'Barlow', sans-serif;
+    /* font-family: 'Source Co de Pro', monospace; */
+    color:lightslategray;
+   
+}
+.bcm h5{
+    /* font-family: 'Arvo', serif; */
+    font-family: 'Barlow', sans-serif;
+    
+
+    /* font-family: 'Source Code Pro', monospace; */
+    color:lightslategray;
+
+}
+h5{
+    display:inline;
+}
+
+header{
+    
+    background-color: rgb(0, 0, 0);
+
+} 
+.banner{
+    background-image: url(images/header10.png);
+    height: 14vw;
+    /* min-height: 100px; */
+    background-repeat: no-repeat;
+    background-position: top center ;
+    background-size: 55%;
+    background-attachment: fixed;
+}
+
+.profile-area{
+    padding:10px 0 100px 0;
+
+}
+.card{
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 15px;
+
+}
+#about{
+    font-family: 'Barlow', sans-serif;
+    text-align: justify;
+}
+.img1 img{
+    height: 250px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width:100%;
+}
+.img2 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width:140px;
+    height: 140px;
+    border-radius: 50%;
+    border:7px solid #fff;
+
+    margin-top:10px;
+}
+.img3 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width:140px;
+    height: 140px;
+    border-radius: 50%;
+    border:7px solid #fff;
+
+    margin-top:10px;
+
+}
+
+.card:hover .img2 img{
+    border-color:darkcyan;
+    transition: 1s;
+
+}
+.card:hover .img3 img{
+    border-color:crimson;
+    transition: 1.5s;
+
+}
+.main-text{
+    padding:10px 0 30px 0;
+    text-align: center;
+}
+.main-text h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 25px;
+    margin:0 0 10px;
+}
+.main-text p{
+    font-size: 17px;
+    padding:0 35px;
+}
+.socials{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.socials i{
+    font-size: 20px;
+    color:darkcyan;
+    padding: 0 10px;
+}
+
+.socials1{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.socials1 i{
+    font-size: 20px;
+    color:crimson;
+    padding: 0 10px;
+}
+
+
+
+#streams{
+    text-align: center;
+    padding:30px 40px 20px;
+}
+
+.pricing-column{
+    padding:3% 5%;
+}
+
+/* features-section */
+#features{
+    margin:8% 0%;
+    padding:2% 10%;
+    background-color: rgb(243, 230, 230);
+    position:relative;
+   
+ 
+}
+
+.feature-box{
+    text-align: center;
+    padding:5%;
+}
+
+.icon{
+    color:#e95b48;
+    margin-bottom: 1rem;
+
+    
+}
+.icon:hover{
+    color:#ff4c68;
+}
+.gu{
+    margin: 0 -3rem;
+    
+}
+
+.feature{
+    margin:1% 0% 3%;
+    /* text-decoration: underline; */
+    /* padding-bottom: 3px; */
+   
+    letter-spacing: 3px;
+    line-height: 1;
+    font-weight: 700;
+    text-align: center;
+    color:black;
+
+}
+.com{
+    margin:1% 0% 3%;
+    /* text-decoration: underline; */
+    /* padding-bottom: 3px; */
+   
+    letter-spacing: 4px;
+    line-height: 1;
+    font-weight: 700;
+    text-align: center;
+    color:rgb(255, 255, 255);
+
+}
+.feature1{
+    margin:8% 0% 5%;
+    /* text-decoration: underline; */
+    /* padding-bottom: 3px; */
+   
+    letter-spacing: 4px;
+    line-height: 1;
+    font-weight: 700;
+    text-align: center;
+    color:black;
+
+}
+
+#courses{
+    margin:8% 0%;
+    padding:2% 10%;
+    background-color: rgb(243, 230, 230);
+    position:relative;
+}
+
+.course{
+    margin:6% 0px;
+   
+}
+.last{
+    text-align: center;
+}
+
+.cantainer{
+    margin: auto;
+    /* width: 60%; */
+  
+}
+
+#footer{
+    
+    width: 100%;
+        background-color: #333;
+        overflow: hidden;
+}
+    
+ #footer a {
+        text-decoration: none;
+        padding: 17px 20px;
+        text-align: center;
+        float: left;
+        color: white;
+    }
+
+.semester{
+    text-align: center;
+    
+    font-family: 'Baloo Bhai 2', cursive;
+    margin:1% 0% 3%;
+    line-height: 1;
+    font-weight: 700;
+    color:black;
+    padding:0.8%;
+}
+.place h1{
+    text-align: center;
+    
+    font-family: 'Baloo Bhai 2', cursive;
+    margin:1% 0% 3%;
+    line-height: 1;
+    font-weight: 700;
+    color:rgb(46, 4, 4);
+    /* padding:0.8%; */
+
+}
+
+.coming{
+    font-size: 60px;
+    text-align: center;
+    color:blueviolet;
+    
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Baloo Bhai 2', cursive;
+    margin:1% 0% 3%;
+    line-height: 1;
+    font-weight: 500;
+    
+    padding:0.8%;
+
+}
+.last{
+    font-size: 60px;
+    text-align: center;
+    color:crimson;
+    font-family: 'Ubuntu', sans-serif;
+    
+    /* font-family: 'Dancing Script', cursive; */
+    
+    margin:0% 0% 5%;
+    line-height: 1;
+    font-weight: 500;
+    
+    padding:0.8%;
+
+}
+
+.cards{
+    margin:6% 0;
+
+}
+
+#ctc{
+    margin:8% 0%;
+    padding:2% 10%;
+    background-color:wheat;
+    position:relative;
+}
+
+#company{
+    margin:8% 0%;
+    padding:2% 10%;
+    background-color:rgba(0, 0, 0, 0.8);
+    position:relative;
+    background-image: url("images/b2.png");
+    
+
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+.opacity{
+     opacity:0.5;
+}
+
+
