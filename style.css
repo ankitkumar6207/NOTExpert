@@ -7,6 +7,7 @@
 /* element selectors alphabetically  */
 body {
     background: #ddd;
+    overflow-x: hidden;
 }
 
 /* h5 {
