@@ -117,7 +117,7 @@ p {
 }
 
 .banner {
-    background-image: url(images/final.png);
+    background-image: url(images/header.png);
     height: 15vw;
     /* min-height: 100px; */
     background-repeat: no-repeat;
