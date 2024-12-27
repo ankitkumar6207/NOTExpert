@@ -1,0 +1,121 @@
+/* testimonila css  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+/* element selectors alphabetically  */
+body {
+    overflow-x: hidden;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+
+
+/* class selectors alphabetically  */
+.active-star {
+    color: #fbc02d;
+    margin-bottom: 8px;
+}
+
+.active-star:hover {
+    color: #f9a825;
+    cursor: pointer;
+}
+
+.box {
+    background-color: blue;
+    padding: 5px 10px;
+    height: 300px;
+    box-shadow: -1px 3px 5px #a7a7a7;
+
+}
+
+.card-text {
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+
+
+}
+.designation {
+    font-size: 0.9rem;
+    margin-left: 8px;
+}
+.name {
+    font-weight: 700;
+    margin-left: 8px;
+}
+.owl-carousel {
+    margin-bottom: 15px;
+}
+.owl-carousel .owl-stage-outer {
+    padding: 40px 0px;
+    height: 380px;
+}
+.owl-carousel .owl-item img {
+    width: 45px !important;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+    border-radius: 50% !important;
+    background: inherit !important;
+    border: 3px solid rgb(76, 19, 176);
+    color: rgb(69, 86, 145) !important;
+    font-size: 1.3rem !important;
+}
+.owl-carousel .item img {
+    width: 45px !important;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.rounded {
+    /* background: linear-gradient(to top left, #ff66ff 0%, #3399ff 100%); */
+    /* background-color: rgb(232, 242, 245); */
+    padding: 20px 2px 10px;
+    /* margin-top: 20px;
+       margin-bottom: 20px; */
+    /* margin:20px 0px 20px; */
+
+    overflow: hidden;
+    /* box-shadow: 5px 5px 25px #a7a7a7; */
+}
+.testimonial {
+
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+}
+.tag {
+    display: flex;
+    justify-content: center;
+}
+.tara {
+    margin: 0 17px;
+    margin-bottom: -21px;
+}
+
+
+
+/* media query  */
+@media only screen and (max-width: 767px) {
+    .item {
+        display: flex;
+        justify-content: center;
+    }
+}
